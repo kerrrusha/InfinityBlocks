@@ -26,5 +26,3 @@ def getMiddleValueName(value):
     importantPart = digitsAmount - 3 * (lettersIndex + 1)
 
     return str(value)[0 : importantPart-3] + ' ' + str(value)[importantPart-3 : importantPart] + letters[lettersIndex]
-
-print(getMiddleValueName(1234567891))
