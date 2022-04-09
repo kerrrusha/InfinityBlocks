@@ -12,7 +12,7 @@ def platform():
         return 'win'
 
 if platform() == "android":
-    path = "/data/data/org.test.pgame/files/app/"
+    path = "/data/data/ua.kerrrusha.infinity/files/app/"
 elif platform() == "linux":
     path = "./"
 
